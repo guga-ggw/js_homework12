@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #f9f9f9;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+button {
+  cursor: pointer;
+  margin-left: 5px;
+}
